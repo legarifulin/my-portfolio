@@ -76,12 +76,15 @@
 
 // Phones
 @include mediaSm {
-  #home .lg-heading {
-    margin-top: 10vh;
-    font-size: 4rem;
-  }
+  main {
+    padding: 2rem;
+    #home .lg-heading {
+      margin-top: 10vh;
+      font-size: 4rem;
+    }
 
-  .projects {
-    grid-template-columns: 1fr;
+    .projects {
+      grid-template-columns: 1fr;
+    }
   }
 }
