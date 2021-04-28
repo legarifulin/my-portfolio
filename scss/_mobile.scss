@@ -47,7 +47,8 @@
 
 // Phones
 @include mediaSm {
-  main#home h1 {
+  #home .lg-heading {
     margin-top: 10vh;
+    font-size: 4rem;
   }
 }
