@@ -37,7 +37,10 @@
   .menu-nav {
     height: 75vh;
     transform: translate3d(-100%, 0, 0);
-    font-size: 24px;
+
+    .nav-link {
+      font-size: 24px;
+    }
   }
 
   .menu-branding {
@@ -76,15 +79,31 @@
 
 // Phones
 @include mediaSm {
-  #home {
-    .lg-heading {
+  h1,
+  h2,
+  h3 {
+    &.lg-heading {
       font-size: 4rem;
       margin-top: 10vh;
       padding: 20px;
-    }
 
-    .projects {
-      grid-template-columns: 1fr;
+      .projects {
+        grid-template-columns: 1fr;
+      }
     }
+  }
+  main#home h1 {
+    margin-top: 10vh;
+  }
+
+  #about .lg-heading {
+    font-size: 4rem;
+  }
+
+  #work .lg-heading {
+    font-size: 4rem;
+  }
+  #contact .lg-heading {
+    font-size: 4rem;
   }
 }
