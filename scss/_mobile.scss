@@ -76,11 +76,11 @@
 
 // Phones
 @include mediaSm {
-  main {
-    padding: 2rem;
-    #home .lg-heading {
-      margin-top: 10vh;
+  #home {
+    .lg-heading {
       font-size: 4rem;
+      margin-top: 10vh;
+      padding: 20px;
     }
 
     .projects {
