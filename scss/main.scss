@@ -93,7 +93,7 @@ main {
     grid-area: bioimage;
     width: 250px;
     height: 250px;
-    background: url(../img/portrait.JPG);
+    background: url(../img/portrt.JPG);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -118,7 +118,7 @@ main {
   .job {
     background: lighten($color: $primary-color, $amount: 5);
     padding: 0.5rem;
-    border-bottom: $secondary-color 3px solid;
+    border-bottom: $secondary-color 5px solid;
   }
 }
 
